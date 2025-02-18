@@ -1,6 +1,6 @@
 {
   "name": "json2",
   "version": "2023.5.10",
-  "main": "json2.js",
+  "main": "json2.min.js",
   "author": "Douglas Crockford"
 }
