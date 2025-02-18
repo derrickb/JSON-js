@@ -2,5 +2,11 @@
   "name": "json2",
   "version": "2023.5.10",
   "main": "json2.min.js",
-  "author": "Douglas Crockford"
+  "author": "Douglas Crockford",
+  "scripts": {
+    "minify": "jsmin --output json2.min.js --level 3 json2.js"
+  },
+  "devDependencies": {
+    "jsmin": "^1.0.1"
+  }
 }
